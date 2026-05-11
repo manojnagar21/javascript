@@ -67,3 +67,10 @@ console.log(x > 5);
 console.log(x >= 5);
 console.log(x < 5);
 console.log(x <= 5);
+
+// logical operators
+let num1 = 5;
+let num2 = 10;
+console.log(num1 >= 5 && num2 >= 10);
+console.log(num1 >= 5 || num2 >= 15);
+console.log(!(num1 >= 5 && num2 >= 15));
