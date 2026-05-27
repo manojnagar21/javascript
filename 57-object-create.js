@@ -30,7 +30,7 @@ console.log(obj5.k2); // if k2 not found in obj5 then find k2 in obj1
 obj5.k2 = "unique";
 console.log(obj5.k2); // since k2 exists in obj5 hence it won't look in obj1 for k2
 console.log(obj5); // check [[prototype]] or __proto__
-// check [[prototype]] or __proto__ is different from prototype
+// [[prototype]] or __proto__ is different from prototype
 console.log(obj5.__proto__);
 // in above example obj5's proto is being set equal to obj1 reference or address
 // obj5.__proto__ is also called as dunder or proto chaining
