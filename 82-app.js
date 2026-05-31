@@ -1,0 +1,15 @@
+import { firstName } from "./82-es-modules.js";
+import { age } from "./82-es-modules.js";
+import { lastName as lName } from "./82-es-modules.js";
+import Person, { Person2 as P2 } from "./82-person.js";
+import something from "./82-es-modules.js";
+console.log(firstName);
+console.log(age);
+console.log(lName);
+const person = new Person("Manoj", "Nagar", 36);
+console.log(person);
+person.info();
+const person2 = new P2("Manoj", "Nagar", 37);
+console.log(person2);
+person2.info();
+console.log(something);
